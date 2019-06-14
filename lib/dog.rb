@@ -15,7 +15,7 @@ class Dog
   def self.all
     @@all.each do |name|
 
-      # p "#{Dog.instance.name}"
+       p "#{name}"
     end
   end
 binding.pry
