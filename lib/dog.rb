@@ -13,7 +13,7 @@ class Dog
 
   def self.all
     @@all.each do |name|
-      p "#{Dog.name}"
+      p "#{Dog.instance.name}"
     end
   end
 
