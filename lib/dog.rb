@@ -14,7 +14,6 @@ class Dog
 
   def self.all
     @@all.each do |name|
-
        p "#{name}"
     end
   end
