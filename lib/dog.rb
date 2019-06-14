@@ -17,5 +17,5 @@ class Dog
        p "#{name}"
     end
   end
-binding.pry
+# binding.pry
 end
